@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #6944ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 700px;
+    width: 490px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.ubicacion {
+    display: flex;
+    align-items: center;
+}
+
+.fas, .fa-map-marker-alt{
+    margin-right: 10px;;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.followers {
+    margin: 0 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    margin: 0;
+}
+
+.redes {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.red {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb {
+    background-color: #0078d7;
+}
+
+.tw {
+    background-color: #1da1f2;
+}
+
+.ig {
+    background-color: #e1306c;
+}
+
+.gh {
+    background-color: #333333;
+}
